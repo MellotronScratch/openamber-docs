@@ -30,7 +30,7 @@ De keuze *SG-Ready modus* wordt niet bewaard en staat na een herstart weer op **
 
 ### Instellingen SG-Ready
 
-![SmartGrid](/images/instellingen-smartgrid.jpg)
+![SG-Ready](/images/instellingen-smartgrid.jpg)
 
 | Instelling | Opties / Bereik | Standaard | Home Assistant entiteit | Beschrijving |
 | :-- | :-- | :-- | :-- | :-- |
@@ -48,6 +48,9 @@ Wat het EMS kan doen:
 - **Boost vragen** (zelfverbruik optimaliseren): OpenAmber zet *SG-Ready modus* op **Boost**. Stopt het EMS de boost, dan gaat de stand terug naar **Normaal**.
 - **Vermogen beperken** (netbegrenzing): OpenAmber zet *SG-Ready modus* op **Blokkeren**. Wordt de beperking opgeheven, dan gaat de stand terug naar **Normaal**.
 - **Meetwaarden uitlezen**: actueel vermogen, energie, spanning, stroom en tapwatertemperatuur.
+
+![EEBUS](/images/instellingen-energie-eebus-1.jpg)
+![EEBUS pagina 2](/images/instellingen-energie-eebus-2.jpg)
 
 Valt de verbinding met het EMS weg, dan heft OpenAmber een beperking na 2 uur zelf op.
 

@@ -46,6 +46,8 @@ Verlaag de stooklijn geleidelijk bij zacht weer (+10°C / +15°C) als het binnen
 
 ## Categorie: Stooklijn Z2
 
+![Stooklijn zone 2](/images/instellingen-verwarmen-stooklijn-z2.jpg)
+
 Een aparte stooklijn voor zone 2. Die gebruik je als zone 2 een mengventiel heeft en een andere aanvoertemperatuur nodig heeft dan zone 1, bijvoorbeeld vloerverwarming naast radiatoren. Zet daarvoor eerst **Mengventiel zone 2 aanwezig** aan op [Algemeen](./configuratie-algemeen.html).
 
 | Instelling | Opties / Bereik | Standaard | Home Assistant entiteit | Beschrijving |

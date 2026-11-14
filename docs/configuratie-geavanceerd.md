@@ -49,6 +49,9 @@ De **deadband** is een zone rond het setpoint. Zolang de afwijking daarbinnen bl
 
 ### Compressor verwarmen en koelen
 
+![Koelen PID](/images/instellingen-geavanceerd-pid-2.jpg)
+![PID deadband](/images/instellingen-geavanceerd-pid-3.jpg)
+
 De compressor-PID stuurt het vermogen van de compressor op basis van het verschil tussen de regeltemperatuur en het berekende aanvoersetpoint.
 
 | Instelling | Opties / Bereik | Standaard | Home Assistant entiteit | Beschrijving |
@@ -77,6 +80,10 @@ Deze PID regelt het toerental van pomp P0 als **Pomp P0 Dynamisch PWM** aan staa
 ### Mengventielen
 
 Deze PID-regelaars sturen de mengventielen van zone 1 en zone 2 naar de aanvoertemperatuur van de stooklijn van die zone. Ze werken alleen als het mengventiel aanwezig is (zie [Algemeen](./configuratie-algemeen.html)).
+
+![Mengventiel zone 1 PID](/images/instellingen-geavanceerd-pid-5.jpg)
+![Mengventiel zone 2 PID](/images/instellingen-geavanceerd-pid-6.jpg)
+![Mengventiel deadband](/images/instellingen-geavanceerd-pid-7.jpg)
 
 | Instelling | Opties / Bereik | Standaard | Home Assistant entiteit | Beschrijving |
 | :-- | :-- | :-- | :-- | :-- |
@@ -130,6 +137,8 @@ De registers slaan temperaturen op als `T + 30`; OpenAmber rekent dat voor je om
 
 ## Categorie: Compressor
 
+![Compressor](/images/instellingen-geavanceerd-compressor.jpg)
+
 | Instelling | Opties / Bereik | Standaard | Home Assistant entiteit | Beschrijving |
 | :-- | :-- | :-- | :-- | :-- |
 | **Buitenunit optimalisaties** | Aan / Uit | Aan | `switch.openamber_buitenunit_optimalisaties` | Bij elke start schrijft OpenAmber eigen frequentietabellen voor verwarmen en koelen naar de buitenunit. Ook neemt OpenAmber de begrenzing van de compressor per buitentemperatuur over van de unit. Zet dit alleen uit als je de originele tabellen van de unit wilt gebruiken. Bij HPS-units past OpenAmber deze optimalisaties nooit toe. |
@@ -140,6 +149,11 @@ De registers slaan temperaturen op als `T + 30`; OpenAmber rekent dat voor je om
 ## Categorie: Ventilator
 
 Toerentallen van de ventilator van de buitenunit, per situatie. *Ta* is de buitentemperatuur, *F4* en *F7* zijn compressorstanden. Alle waarden: 300 t/m 900 rpm, stap 10.
+
+![Ventilator 1](/images/instellingen-geavanceerd-ventilator-1.jpg)
+![Ventilator 2](/images/instellingen-geavanceerd-ventilator-2.jpg)
+![Ventilator 3](/images/instellingen-geavanceerd-ventilator-3.jpg)
+![Ventilator 4](/images/instellingen-geavanceerd-ventilator-4.jpg)
 
 | Instelling | Standaard ¹ | Home Assistant entiteit | Register |
 | :-- | :-- | :-- | :-- |

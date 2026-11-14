@@ -41,6 +41,9 @@ Heb je wel een bedrade thermostaat, laat de schakelaar dan uit. Staat hij aan, d
 ## Categorie: Algemeen
 
 ![Thermostaat algemeen](/images/instellingen-thermostaat-algemeen.jpg)
+![Thermostaat algemeen pagina 2](/images/instellingen-thermostaat-algemeen-2.jpg)
+
+De standaard setpoints zijn grijs zolang Thermostaat bron op Extern staat. De schakelaar *Draadloze thermostaat* en de koppelcode staan alleen op het Waveshare-scherm, op pagina 2 onder de uitschakelvertraging.
 
 | Instelling | Opties / Bereik | Standaard | Home Assistant entiteit | Beschrijving |
 | :-- | :-- | :-- | :-- | :-- |

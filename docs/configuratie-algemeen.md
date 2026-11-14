@@ -15,6 +15,7 @@ Het tabblad heeft vijf categorieën: **Systeem**, **Mengventielen**, **Sensor ka
 ## Categorie: Systeem
 
 ![Systeem](/images/instellingen-algemeen-systeem.jpg)
+![Systeem pagina 2](/images/instellingen-algemeen-systeem-2.jpg)
 
 | Instelling | Opties / Bereik | Standaard | Home Assistant entiteit | Beschrijving |
 | :-- | :-- | :-- | :-- | :-- |
@@ -64,6 +65,8 @@ Voer kalibratiewijzigingen altijd uit met kleine stappen van 0.1°C en evalueer 
 ---
 
 ## Categorie: Stille modus
+
+![Stille modus](/images/instellingen-algemeen-stille-modus.jpg)
 
 Met de stille modus beperk je het compressorvermogen binnen een tijdsvenster, bijvoorbeeld 's nachts. Dat geldt voor verwarmen, koelen en tapwater. De stille modus is alleen actief als OpenAmber de juiste tijd kent (via WiFi of Home Assistant).
 

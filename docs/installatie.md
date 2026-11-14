@@ -16,5 +16,5 @@ De benodigdheden vind je op [Aan de slag - Benodigdheden](./benodigdheden.html).
 5. [Verwarmen instellen](./installatie/verwarmen.html)
 6. [Tapwater instellen](./installatie/tapwater.html)
 7. [Koelen (optioneel)](./installatie/koelen.html)
-8. [SmartGrid (optioneel)](./installatie/smartgrid.html)
+8. [Energiebeheer (optioneel)](./installatie/smartgrid.html)
 9. [Controle na de eerste week](./installatie/controle-na-eerste-week.html)

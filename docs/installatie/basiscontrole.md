@@ -12,8 +12,8 @@ Controleer eerst in Home Assistant:
 
 Controleer daarna op [Instellingen - Algemeen](./configuratie-algemeen.html):
 
-1. `switch.dhw_enabled_switch` staat goed voor jouw installatie.
+1. `switch.openamber_tapwater_aanwezig` staat goed voor jouw installatie.
 2. Sensor offsets staan alleen aangepast als daar reden voor is.
-3. `switch.emergency_mode_enabled` staat uit.
+3. `switch.openamber_noodbedrijf` staat uit.
 
 Volgende stap: [Verwarmen instellen](./verwarmen.html).
